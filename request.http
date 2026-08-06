@@ -1,0 +1,26 @@
+# set the TIN to look up
+@tin = 0000000000
+
+### default (english)
+GET http://localhost:3000/tin/{{tin}}
+
+### english explicit
+GET http://localhost:3000/tin/{{tin}}?lang=en
+
+### amharic
+GET http://localhost:3000/tin/{{tin}}?lang=am
+
+### oromifa
+GET http://localhost:3000/tin/{{tin}}?lang=or
+
+### default (english)
+GET http://localhost:3000/tin/{{tin}}
+
+### english explicit
+GET http://localhost:3000/tin/{{tin}}?lang=en
+
+### amharic
+GET http://localhost:3000/tin/{{tin}}?lang=am
+
+### oromifa
+GET http://localhost:3000/tin/{{tin}}?lang=or
